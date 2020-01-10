@@ -3,4 +3,4 @@ AntiOverwatch is a method to prevent overwatch from catching users when they are
 <h1>Current Version</h1>
 Cheat version: <b>Onetap v3</b> with AntiOW version: <b>20</b>
 <h1>Original Post on onetap</h1>
-<a href="https://onetap.su/threads/anti-overwatch-rage-and-legit-restriction.12738/">here</a>
+<a href="https://onetap.su/threads/anti-overwatch-rage-and-legit-restriction.12738/">View here! https://onetap.su/threads/anti-overwatch-rage-and-legit-restriction.12738/</a>
