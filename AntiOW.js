@@ -1,8 +1,8 @@
-var n = "\n"
 function rageCheck()
 {
+    var n = "\n"
     var value = UI.GetValue( "Rage", "GENERAL", "General", "Enabled" );
-    var checked = UI.GetValue( "MISC", "JAVASCRIPT", "Script Items", "Disable Rage (Anti-OW)" );
+    var checked = UI.GetValue( "MISC", "JAVASCRIPT", "Script Items", "Force rage off" );
     if (value=="1") {
         if (checked==true){
             UI.SetValue( "Rage", "GENERAL", "General", "Enabled", false );
@@ -12,7 +12,7 @@ function rageCheck()
 
     }
     var legit = UI.GetValue( "Legit", "GENERAL", "General", "Enabled" );
-    var checked2 = UI.GetValue( "MISC", "JAVASCRIPT", "Script Items", "Disable Legit (Anti-OW)" );
+    var checked2 = UI.GetValue( "MISC", "JAVASCRIPT", "Script Items", "Force legit off" );
     if (legit=="1") {
         if (checked2==true){
             UI.SetValue( "Legit", "GENERAL", "General", "Enabled", false );
@@ -24,8 +24,8 @@ function rageCheck()
 }
 
 Global.RegisterCallback("Draw", "rageCheck");
-UI.AddCheckbox("Disable Rage (Anti-OW)");
-UI.AddCheckbox("Disable Legit (Anti-OW)");
+UI.AddCheckbox("Force legit off");
+UI.AddCheckbox("Force rage off");
 UI.SetValue("RAGE", "GENERAL", "Enabled", false);
 UI.SetValue("MISC", "JAVASCRIPT", "Script Items", "Disable Rage (Anti-OW)", true);
 UI.SetValue("MISC", "JAVASCRIPT", "Script Items", "Disable Legit (Anti-OW)", true);
