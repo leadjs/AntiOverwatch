@@ -7,14 +7,7 @@ function rageCheck()
     if (value=="1") {
         if (checked==true){
             UI.SetValue( "Rage", "GENERAL", "General", "Enabled", false );
-            Global.PrintChat("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" + n);
-            Global.PrintChat("ERROR: YOU HAVE ANTI-OVERWATCH ENABLED!" + n);
-            Global.PrintChat("Disable in MISC > JAVASCRIPT > SCRIPT ITEMS > Disable Rage" + n);
-            Global.PrintChat("Disabling this gives out a risk of overwatch conviction" + n);
-            Global.PrintChat("This will NOT prevent VAC bans if cheat is detected" + n);
-            Global.PrintChat(" " + n);
-            Global.PrintChat("Script made by NativePurps @ Onetap Forums" + n);
-            Global.PrintChat("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" + n);
+            Global.PrintChat("You can not play with ragebot enabled!" + n);
             Global.PrintColor( [ 255, 50, 0, 255 ], "ERROR: YOU HAVE ANTI-OVERWATCH (RAGE) ENABLED!" + n);
         }
         if (checked==false) {}
@@ -26,14 +19,7 @@ function rageCheck()
     if (legit=="1") {
         if (checked2==true){
             UI.SetValue( "Legit", "GENERAL", "General", "Enabled", false );
-            Global.PrintChat("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" + n);
-            Global.PrintChat("ERROR: YOU HAVE ANTI-OVERWATCH ENABLED!" + n);
-            Global.PrintChat("Disable in MISC > JAVASCRIPT > SCRIPT ITEMS > Disable Legit)" + n);
-            Global.PrintChat("Disabling this gives out a risk of overwatch conviction" + n);
-            Global.PrintChat("This will NOT prevent VAC bans if cheat is detected" + n);
-            Global.PrintChat(" " + n);
-            Global.PrintChat("Script made by NativePurps @ Onetap Forums" + n);
-            Global.PrintChat("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" + n);
+            Global.PrintChat("You can not play with legitbot enabled!" + n);
             Global.PrintColor( [ 255, 50, 0, 255 ], "ERROR: YOU HAVE ANTI-OVERWATCH (LEGIT) ENABLED!" + n);
         }
         if (checked2==false) {}
